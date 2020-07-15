@@ -1,0 +1,4 @@
+#PROBLEM 2: create a directory without name from command line create a directory with name "-okgoogle" 
+Solution:
+a)mkdir ' ' 
+b)mkdir -- -okgoogle or mkdir ./-okgoogle
