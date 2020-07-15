@@ -1,0 +1,14 @@
+Problem #5 : 
+*Play with files and directories-->
+
+1.create  3 files named   abc.txt  ok  fine  g.txt  /tmp directory 
+2.create  4  directories   aa aaa aaaa  under  /tmp directory 
+3.give ls command to  list the content of  /tmp directory 
+4.make sure it will only list the content (file|directory)  having 2 char in their name.
+  
+ Solution:
+ 1.go to tmp directory 
+ 2.creating files touch abc.txt ok\ fine g.txt 
+ 3.creating directories mkdir aa aaa aaaa aaaaa 
+ 4.ls -f ??   #list the files with 2 chars 
+   ls -d ?? #list the directories with 2 chars
